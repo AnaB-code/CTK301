@@ -1,0 +1,40 @@
+h1{
+    color: #00ffff;
+    background-color: black;
+}
+
+h2{
+    color:#d895fb;
+    background-color: black;
+}
+
+h3{
+    color:#ff0000;
+    background-color: antiquewhite;
+}
+
+#ImportantInfo{
+    color:white;
+    background-color: black;
+}
+
+.GPAInfo{
+    color: #0000ff;
+}
+
+.ClassBlock{
+    color: azure;
+    background-color: black;
+}
+
+a:link {
+    color: #ff0000;
+}
+  
+a:visited {
+    color: #00ff00;
+}
+
+a:hover {
+    color: #ffff00;
+} 
