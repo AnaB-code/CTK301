@@ -1,0 +1,56 @@
+h1 {
+    color: white;
+}
+
+header {
+    background-color: 	#9faafe;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+h2 {
+    color: blue;
+}
+
+.DocYellow {
+    color: orange;
+    font-weight: bold;
+}
+
+h3 {
+    background-color: yellow;
+}
+
+.TextRed {
+    color: red;
+}
+
+#BOLD {
+    font-weight: bold;
+}
+
+h4 {
+    color: yellow;
+    background-color: green;
+}
+
+.BackGreen {
+    background-color: springgreen;
+}
+
+footer {
+    background-color: yellow;
+}
+
+.DocBlue {
+    color: blue;
+    font-weight: bold;
+}
