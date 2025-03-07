@@ -1,0 +1,133 @@
+body {
+    background-color: #999999;
+}
+
+#wrapper {
+    display: grid;
+    margin: 1em auto;
+    width: 900px;
+    padding:0px;
+    border: 4px solid #00479F;
+    background-color: #ffffff;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+h1 {
+    grid-column: span 12;
+    font-style: italic;
+    font-family: sans-serif;
+    background-image: linear-gradient(to bottom, #0087E6, #0077D5, #0059B4, #004BA3, #00479F);
+    padding: 25px;
+    margin: 0px;
+}
+
+h1 a {
+    text-decoration: none;
+    color: #6AD0FF;
+    font-weight: normal;
+}
+
+nav {
+    grid-column: span 12;
+    background-color: #00479F;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    background-image: linear-gradient(to bottom, #0087E6, #0077D5, #0059B4, #004BA3, #00479F);
+    width: 182px;
+    padding: 15px;
+    padding-left: 25px;
+}
+
+nav ul li p {
+    margin: 0px;
+    color: transparent;
+}
+
+nav ul li a {
+    display: block;
+    color: #6AD0FF;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #ffffff;
+}
+
+h2 {
+    color: #00479F;
+    border-bottom: 3px solid #00479F;
+    font-family: sans-serif;
+    font-weight: normal;
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+
+.sidebar {
+    grid-column: span 4;
+    background-color: #ADD8E6;
+    padding: 15px;
+    padding-top: 0px;
+}
+
+.sidebar p {
+    font-weight: bold;
+    text-align: justify;
+}
+
+.sidebar2 {
+    grid-column: span 4;
+    background-color: white;
+    padding: 15px;
+    padding-top: 0px;
+    margin: 0px;
+}
+
+.sidebar2 p {
+    margin-top: 10px;
+}
+
+main {
+    grid-column: span 8;
+    padding: 15px;
+    padding-top: 0px;
+}
+
+a {
+    font-weight: bold;
+    color: red;
+}
+
+.floatimgleft {
+    float: left;
+    border: 3px solid #00479F;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+
+.floatimgright {
+    float: right;
+    border: 3px solid #00479F;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.floatimgcenter {
+    width: 270px;
+}
+
+footer {
+    grid-column: span 12;
+    border-top: 4px solid #00479F;
+    background-color: #D01D00;
+    padding: 10px;
+}
