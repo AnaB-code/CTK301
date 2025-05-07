@@ -80,6 +80,13 @@ h1 {
   margin-bottom: 5px;
 }
 
+.heroimg2 {
+  border: 5px solid #332B74;
+  border-radius: 10%;
+  margin-bottom: 5px;
+  width: 350px;
+}
+
 nav {
   grid-column: span 12;
 }
